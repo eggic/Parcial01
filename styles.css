@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c1d0df;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #686da2;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    align-items: center;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(196, 40, 40, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #1a83c1;
+}
+
+ul {
+    list-style-type: square;
+}
+
+
+
+/* Botón de interactividad */
+button {
+    background: #686da2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #90e0ef;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #686da2;
+    color: white;
+    margin-top: 20px;
+}
